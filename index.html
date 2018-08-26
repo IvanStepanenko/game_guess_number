@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Угадай число!!!</title>
+    <link rel="stylesheet" type="text/css" href="indexstyle.css">
+    <script type="text/javascript" src="indexscript.js"></script>
+</head>
+<body>
+    <div class = "opasity_fon" id="opasity_fon">
+    </div>
+    <div class="game_and__window" id="game_and__window">
+
+        <input type="button" id="new_game" class="new_game" value="новая игра">
+    </div>
+    <div class="section">
+        <h1>угадай число от 0-99</h1>
+        <form class = "form">
+            <input type="text" class="form__entered_number" " id="some_number">
+            <input type="button" id="btn" class="form__button" value="проверить">
+        </form>
+        <p id="counter"></p>
+        <div class="answer" id ="answer">
+            <div class="answer__block">число меньше</div>
+            <div class="answer__block">чиcло больше</div>
+        </div>
+        <div class="all_try" id="all-try">
+            <p>История чисел</p>
+        </div>
+    </div>
+</body>
+</html>
