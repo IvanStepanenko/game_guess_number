@@ -11,6 +11,7 @@
     }
 }
     var count = 11;
+    var numberTry = 1;
     function  random() {
          var rand = Math.floor(Math.random() * 100);
          console.log(rand);
@@ -94,7 +95,7 @@
         },25)
     }
     function allTry(num,rand) {
-        var numberTry = 1;
+
         var p = document.createElement("p");
         var allTry = document.getElementById("all-try");
         if (num<rand){
